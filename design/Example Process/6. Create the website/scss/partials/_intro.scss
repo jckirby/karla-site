@@ -1,0 +1,95 @@
+/////////////////////////////////////
+// INTRO PARTIAL
+/////////////////////////////////////
+
+
+/////////////////
+// VARIABLES
+/////////////////
+
+
+#intro-view {
+    padding: 50px 80px;
+    
+    h1 {
+        font-size: 90px;
+    }
+    
+
+    .stack-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .stack {
+        display: inline-block;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        width: 145px;
+        height: 190px;
+        transition: all 0.15s;
+        cursor: pointer;
+        padding: 10px 14px;
+        font-size: 12px;
+        vertical-align: top;
+        position:relative;
+
+        &:hover {
+            transform: translate(-2px, -2px) rotate(-1deg) scale(1.1);
+            background:#f7f7f7;
+        }
+
+        #completed-stacks & {
+            background: url(../images/front-cover.png);
+            background-size: 100% 100%;
+            box-shadow: none;
+            padding-left: 18px;
+            padding-top: 20px;
+            text-align: center;
+            font-family:Kadwa;    
+            filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.4));
+
+            h3, p {
+                color: gold;
+                text-shadow: -1px -1px 0px rgba(0,0,0,0.3), 1px 1px 0px rgba(255,255,255,0.2);
+            }
+        }
+
+        &#new-stack-button {
+            display: inline-flex;
+            justify-content: center;
+            align-items:center;
+            font-size:30px;
+            color:#ccd5e6;
+        }
+
+        .delete-button {
+            color: #2f4265;
+            font-size: 22px;
+            border-radius: 50%;
+            border: 0;
+            outline: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(50%,-50%);
+            cursor:pointer;
+            display:none;
+            transition:all 0.1s;
+            
+            &:hover {
+                transform: translate(50%,-50%) scale(1.2);
+            }
+            
+        }
+        
+        &:hover .delete-button {
+            display:block;
+        }
+        
+
+    }
+
+    
+}

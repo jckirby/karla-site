@@ -1,0 +1,10 @@
+Primary #C6C5B9
+Secondary #5F0F40
+Tertiary #F76840
+
+
+h1 - Muli 48px
+h2 - Playfair
+h3
+p
+quotes

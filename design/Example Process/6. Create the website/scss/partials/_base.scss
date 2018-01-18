@@ -1,0 +1,36 @@
+/////////////////////////////////////
+// BASE PARTIAL
+/////////////////////////////////////
+
+
+/////////////////
+// VARIABLES
+/////////////////
+
+$primary-bg-color: #e2e2e2;
+$primary-text-color: black;
+$secondary-text-color: green;
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    line-height:1.6em;
+    font-family: 'Kadwa', sans-serif;
+}
+
+html {
+    background-color:$primary-bg-color;
+}
+
+h1, h2, h3, p {
+    color:$primary-text-color;  
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    margin-bottom:20px;
+} 

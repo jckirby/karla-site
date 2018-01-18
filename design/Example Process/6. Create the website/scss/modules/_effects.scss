@@ -1,0 +1,18 @@
+$paper-container-text-color: #4f6896;
+
+.paper-text {
+    //on background: #e2e2e2
+    text-shadow: 0px 5.36px 8.896px #c4c9d8, 0 -2px 1px #fff;
+    color: #f1f1f1;
+}
+
+.paper-container {
+    //on background: #e2e2e2
+    box-shadow: 2px 5.36px 8.896px #c4c9d8, 0 -1.2px 1px #fff;
+    background-color: #f1f1f1;
+    
+    * {
+        color: $paper-container-text-color;        
+    }
+    
+}
